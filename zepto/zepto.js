@@ -507,7 +507,7 @@ window.Zepto = Zepto;
 
 
 if ( typeof define === "function" && define.amd ) {
-  define( "zepto", [], function () { return Zepto; } );
+ define(function () { return Zepto; } );
 }
 
 //     Zepto.js
